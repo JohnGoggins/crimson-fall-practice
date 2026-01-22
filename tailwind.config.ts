@@ -14,11 +14,11 @@ export default {
     },
     extend: {
       fontFamily: {
-        cinzel: ['Cinzel', 'serif'],
-        roboto: ['Roboto', 'sans-serif'],
-        openSans: ['Open Sans', 'sans-serif'],
-        ptSerif: ['PT Serif', 'serif'],
-        tinos: ['Tinos', 'serif'],
+        cinzel: ["Cinzel", "serif"],
+        roboto: ["Roboto", "sans-serif"],
+        openSans: ["Open Sans", "sans-serif"],
+        ptSerif: ["PT Serif", "serif"],
+        tinos: ["Tinos", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",

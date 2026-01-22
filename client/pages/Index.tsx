@@ -68,7 +68,10 @@ export default function Index() {
       {/* Main Content */}
       <main className="flex-1 bg-white">
         {/* About Section */}
-        <section id="about" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32">
+        <section
+          id="about"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32"
+        >
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
             {/* Book Cover */}
             <div className="flex-shrink-0">
@@ -82,8 +85,8 @@ export default function Index() {
             {/* About Content */}
             <div className="flex-1 flex flex-col justify-center items-center gap-6 lg:gap-8">
               <p className="text-black text-center font-roboto text-lg md:text-xl lg:text-2xl italic">
-                Blood, Jazz, and Forbidden Love: A vampire's quest for redemption in a city on the
-                edge of chaos.
+                Blood, Jazz, and Forbidden Love: A vampire's quest for
+                redemption in a city on the edge of chaos.
               </p>
 
               {/* Tags */}
@@ -112,10 +115,11 @@ export default function Index() {
               </div>
 
               <p className="text-black text-center font-roboto text-lg md:text-xl lg:text-2xl">
-                In 1920s Chicago, a newly-turned vampire struggling to retain her fading humanity gets
-                caught between warring factions of vampires and vampire-hunters. With a conflicted
-                hunter as her only ally, she must unravel a conspiracy dedicated to fanning the flames
-                of conflict before the city erupts in violence.
+                In 1920s Chicago, a newly-turned vampire struggling to retain
+                her fading humanity gets caught between warring factions of
+                vampires and vampire-hunters. With a conflicted hunter as her
+                only ally, she must unravel a conspiracy dedicated to fanning
+                the flames of conflict before the city erupts in violence.
               </p>
 
               {/* Amazon Button */}
@@ -141,7 +145,8 @@ export default function Index() {
               {/* Review */}
               <div className="text-center">
                 <p className="text-black font-roboto text-lg md:text-xl lg:text-2xl mb-2">
-                  "A debut novel that quickly finds its voice and reels you into its plot."
+                  "A debut novel that quickly finds its voice and reels you into
+                  its plot."
                 </p>
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-[#FFD700] font-ptSerif text-xl md:text-2xl drop-shadow-[2px_2px_0_#555]">
@@ -190,7 +195,10 @@ export default function Index() {
         </section>
 
         {/* Excerpt Section */}
-        <section id="excerpt" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          id="excerpt"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
+        >
           <div className="max-w-5xl mx-auto">
             {/* Section Title */}
             <div className="relative mb-8 lg:mb-12">
@@ -206,33 +214,40 @@ export default function Index() {
                 <span className="text-crimson text-6xl md:text-7xl lg:text-[130px] float-left leading-[60px] mr-2 mt-2">
                   R
                 </span>
-                osalind opened her mouth to reply, but her words caught in her throat. The man's
-                pulse was visible in his neck as he tilted his head questioningly, a rhythmic call
-                that drowned out everything else. She could almost taste his blood on her tongue,
-                imagine how it would slip past her lips and flood through her cold body with
-                delicious heat.
+                osalind opened her mouth to reply, but her words caught in her
+                throat. The man's pulse was visible in his neck as he tilted his
+                head questioningly, a rhythmic call that drowned out everything
+                else. She could almost taste his blood on her tongue, imagine
+                how it would slip past her lips and flood through her cold body
+                with delicious heat.
                 <br />
                 <br />
-                "I … I …" she stammered, gripping the edge of the bar so tightly that her knuckles,
-                impossibly, blanched even whiter against her deathless pallor.
+                "I … I …" she stammered, gripping the edge of the bar so tightly
+                that her knuckles, impossibly, blanched even whiter against her
+                deathless pallor.
                 <br />
                 <br />
-                "First time here?" the bartender asked, misreading her hesitation. He leaned in
-                closer, his scent overwhelming her senses. "Don't worry. I'll fix you up something
-                special."
+                "First time here?" the bartender asked, misreading her
+                hesitation. He leaned in closer, his scent overwhelming her
+                senses. "Don't worry. I'll fix you up something special."
                 <br />
                 <br />
-                Rosalind's world narrowed to that pulsing vein. For a moment, she wished that he
-                would sense what she was. That he would panic. Run, so that she could give chase. She
-                didn't want to just feed—she wanted to hunt. Rosalind's lips started to curl away
-                from her teeth when something broke through her growing bloodlust.
+                Rosalind's world narrowed to that pulsing vein. For a moment,
+                she wished that he would sense what she was. That he would
+                panic. Run, so that she could give chase. She didn't want to
+                just feed—she wanted to hunt. Rosalind's lips started to curl
+                away from her teeth when something broke through her growing
+                bloodlust.
               </p>
             </div>
           </div>
         </section>
 
         {/* Mailing List Section */}
-        <section id="mailing-list" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          id="mailing-list"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
+        >
           <div className="max-w-5xl mx-auto">
             {/* Section Title */}
             <div className="relative mb-8 lg:mb-12">
@@ -248,8 +263,8 @@ export default function Index() {
                 Newsletter
               </h3>
               <p className="font-openSans text-lg md:text-xl lg:text-[22px] text-black mb-6 lg:mb-12">
-                Sign up for my mailing list to get updates about new release plus BONUS content like
-                sneak previews and deleted scenes!
+                Sign up for my mailing list to get updates about new release
+                plus BONUS content like sneak previews and deleted scenes!
               </p>
 
               <form className="space-y-6 lg:space-y-8">
@@ -282,7 +297,10 @@ export default function Index() {
         </section>
 
         {/* Order Now Section */}
-        <section id="order-now" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          id="order-now"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
+        >
           <div className="max-w-5xl mx-auto">
             {/* Section Title */}
             <div className="relative mb-8">
@@ -293,9 +311,10 @@ export default function Index() {
             </div>
 
             <p className="font-roboto text-lg md:text-xl lg:text-2xl text-black mb-8 lg:mb-10">
-              Crimson Fall is available in print and e-Book editions, currently exclusively on
-              Amazon. For news about future releases and availability from other vendors, please
-              sign up for my mailing list.
+              Crimson Fall is available in print and e-Book editions, currently
+              exclusively on Amazon. For news about future releases and
+              availability from other vendors, please sign up for my mailing
+              list.
             </p>
 
             {/* Amazon Button */}
@@ -323,7 +342,10 @@ export default function Index() {
         </section>
 
         {/* Content Warnings Section */}
-        <section id="content-warning" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          id="content-warning"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
+        >
           <div className="max-w-5xl mx-auto">
             {/* Section Title */}
             <div className="relative mb-8">
@@ -335,9 +357,10 @@ export default function Index() {
 
             <div className="bg-lightGray p-6 md:p-8 lg:p-12 rounded-md">
               <p className="font-roboto text-lg md:text-xl lg:text-2xl text-black leading-relaxed">
-                Being this novel generally seeks for realistic depiction of violence in violent
-                depictions of the times things may present include: Violence (blood and gore),
-                Death, Suicidal ideation, Depression, and more. Please reach out to the author at{" "}
+                Being this novel generally seeks for realistic depiction of
+                violence in violent depictions of the times things may present
+                include: Violence (blood and gore), Death, Suicidal ideation,
+                Depression, and more. Please reach out to the author at{" "}
                 <a
                   href="mailto:author@crimson-fall.com"
                   className="text-crimson hover:underline"
@@ -351,7 +374,10 @@ export default function Index() {
         </section>
 
         {/* Audiobook Section */}
-        <section id="audiobook" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          id="audiobook"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
+        >
           <div className="max-w-5xl mx-auto">
             {/* Section Title */}
             <div className="relative mb-8">
@@ -363,25 +389,33 @@ export default function Index() {
 
             <div className="space-y-6">
               <p className="font-roboto text-lg md:text-xl lg:text-2xl text-black">
-                There is no "proper" audiobook at this time, though it is something being explored.
+                There is no "proper" audiobook at this time, though it is
+                something being explored.
               </p>
 
               <p className="font-roboto text-lg md:text-xl lg:text-2xl text-black">
-                <span className="uppercase">HOWEVER — for accessibility purposes — there is a </span>
-                <a href="#" className="text-crimson underline hover:no-underline">
+                <span className="uppercase">
+                  HOWEVER — for accessibility purposes — there is a{" "}
+                </span>
+                <a
+                  href="#"
+                  className="text-crimson underline hover:no-underline"
+                >
                   free audiobook
                 </a>
                 <span className="uppercase">
                   {" "}
-                  made with a synthetic voice. The intention is to provide something that is
-                  slightly better than what low quality text-to-speech software can provide.
+                  made with a synthetic voice. The intention is to provide
+                  something that is slightly better than what low quality
+                  text-to-speech software can provide.
                 </span>
               </p>
 
               <p className="font-roboto text-base md:text-lg lg:text-xl text-black italic pl-8 border-l-4 border-crimson">
-                M. A. Glaude does not believe that this is a replacement for human audiobook
-                performers. It is only meant to be a supplementary service until such time as a
-                proper audiobook can be produced. The AI-generated narration may contain occasional
+                M. A. Glaude does not believe that this is a replacement for
+                human audiobook performers. It is only meant to be a
+                supplementary service until such time as a proper audiobook can
+                be produced. The AI-generated narration may contain occasional
                 pronunciation irregularities. Thank your for your understanding.
               </p>
             </div>
@@ -389,7 +423,10 @@ export default function Index() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          id="contact"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
+        >
           <div className="max-w-5xl mx-auto text-center">
             {/* Section Title */}
             <div className="relative mb-8">
@@ -409,7 +446,10 @@ export default function Index() {
         </section>
 
         {/* Reader Photos Section */}
-        <section id="reader-photos" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          id="reader-photos"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
+        >
           <div className="max-w-5xl mx-auto">
             {/* Section Title */}
             <div className="relative mb-8 lg:mb-12">
