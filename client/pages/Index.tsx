@@ -195,6 +195,7 @@ export default function Index() {
         </section>
 
         {/* Excerpt Section */}
+        <FadeInSection>
         <section
           id="excerpt"
           className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
@@ -241,9 +242,10 @@ export default function Index() {
               </p>
             </div>
           </div>
-        </section>
+        </section></FadeInSection>
 
         {/* Mailing List Section */}
+        <FadeInSection>
         <section
           id="mailing-list"
           className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
@@ -294,9 +296,10 @@ export default function Index() {
               </form>
             </div>
           </div>
-        </section>
+        </section></FadeInSection>
 
         {/* Order Now Section */}
+        <FadeInSection>
         <section
           id="order-now"
           className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
@@ -339,9 +342,10 @@ export default function Index() {
               </a>
             </div>
           </div>
-        </section>
+        </section></FadeInSection>
 
         {/* Content Warnings Section */}
+        <FadeInSection>
         <section
           id="content-warning"
           className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
@@ -371,9 +375,10 @@ export default function Index() {
               </p>
             </div>
           </div>
-        </section>
+        </section></FadeInSection>
 
         {/* Audiobook Section */}
+        <FadeInSection>
         <section
           id="audiobook"
           className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
@@ -420,9 +425,10 @@ export default function Index() {
               </p>
             </div>
           </div>
-        </section>
+        </section></FadeInSection>
 
         {/* Contact Section */}
+        <FadeInSection>
         <section
           id="contact"
           className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
@@ -443,9 +449,11 @@ export default function Index() {
               author@crimson-fall.com
             </a>
           </div>
-        </section>
+        </section></FadeInSection>
+          
 
         {/* Reader Photos Section */}
+        <FadeInSection>
         <section
           id="reader-photos"
           className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white"
@@ -496,7 +504,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-        </section>
+        </section></FadeInSection>
       </main>
 
       {/* Footer */}
