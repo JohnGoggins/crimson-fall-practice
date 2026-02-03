@@ -307,7 +307,13 @@ export default function Index() {
         </section>
 
         {/* Order Now Section */}
-        <section id="order-now" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white">
+        <section
+          ref={orderNowAnimation.ref}
+          id="order-now"
+          className={`py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32 bg-white animate-fade-in-up ${
+            orderNowAnimation.isVisible ? "visible" : ""
+          }`}
+        >
           <div className="max-w-5xl mx-auto">
             {/* Section Title */}
             <div className="relative mb-8">
