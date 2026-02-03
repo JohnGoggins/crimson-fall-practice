@@ -9,6 +9,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
+import React from 'react';
+import FadeInSection from '@/components/ui/FadeInSection';
+
 const queryClient = new QueryClient();
 
 const App = () => (
