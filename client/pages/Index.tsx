@@ -1,7 +1,17 @@
 import { useState } from "react";
+import { useInViewAnimation } from "@/hooks/useInViewAnimation";
 
 export default function Index() {
   const [email, setEmail] = useState("");
+
+  // Animation hooks for each section
+  const excerptAnimation = useInViewAnimation();
+  const mailingListAnimation = useInViewAnimation();
+  const orderNowAnimation = useInViewAnimation();
+  const contentWarningAnimation = useInViewAnimation();
+  const audiobookAnimation = useInViewAnimation();
+  const contactAnimation = useInViewAnimation();
+  const readerPhotosAnimation = useInViewAnimation();
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
