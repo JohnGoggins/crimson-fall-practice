@@ -77,7 +77,10 @@ export default function Index() {
       {/* Main Content */}
       <main className="flex-1 bg-white">
         {/* About Section */}
-        <section id="about" className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32">
+        <section
+          id="about"
+          className="py-12 md:py-16 lg:py-20 px-4 md:px-8 lg:px-16 xl:px-32"
+        >
           <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
             {/* Book Cover */}
             <div className="flex-shrink-0">
@@ -91,8 +94,8 @@ export default function Index() {
             {/* About Content */}
             <div className="flex-1 flex flex-col justify-center items-center gap-6 lg:gap-8">
               <p className="text-black text-center font-roboto text-lg md:text-xl lg:text-2xl italic">
-                Blood, Jazz, and Forbidden Love: A vampire's quest for redemption in a city on the
-                edge of chaos.
+                Blood, Jazz, and Forbidden Love: A vampire's quest for
+                redemption in a city on the edge of chaos.
               </p>
 
               {/* Tags */}
@@ -121,10 +124,11 @@ export default function Index() {
               </div>
 
               <p className="text-black text-center font-roboto text-lg md:text-xl lg:text-2xl">
-                In 1920s Chicago, a newly-turned vampire struggling to retain her fading humanity gets
-                caught between warring factions of vampires and vampire-hunters. With a conflicted
-                hunter as her only ally, she must unravel a conspiracy dedicated to fanning the flames
-                of conflict before the city erupts in violence.
+                In 1920s Chicago, a newly-turned vampire struggling to retain
+                her fading humanity gets caught between warring factions of
+                vampires and vampire-hunters. With a conflicted hunter as her
+                only ally, she must unravel a conspiracy dedicated to fanning
+                the flames of conflict before the city erupts in violence.
               </p>
 
               {/* Amazon Button */}
@@ -150,7 +154,8 @@ export default function Index() {
               {/* Review */}
               <div className="text-center">
                 <p className="text-black font-roboto text-lg md:text-xl lg:text-2xl mb-2">
-                  "A debut novel that quickly finds its voice and reels you into its plot."
+                  "A debut novel that quickly finds its voice and reels you into
+                  its plot."
                 </p>
                 <div className="flex items-center justify-center gap-2">
                   <span className="text-[#FFD700] font-ptSerif text-xl md:text-2xl drop-shadow-[2px_2px_0_#555]">

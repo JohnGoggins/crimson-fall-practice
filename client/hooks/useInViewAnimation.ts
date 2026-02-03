@@ -16,7 +16,7 @@ export function useInViewAnimation() {
       },
       {
         threshold: 0.1, // Trigger when 10% of element is visible
-      }
+      },
     );
 
     if (ref.current) {
